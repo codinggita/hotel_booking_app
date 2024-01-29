@@ -1,1 +1,114 @@
- 
+[
+     {
+       "name": "Hotel ABC",
+       "address": "123 Main Street, Shimla",
+       "rating": 4.5,
+       "amenities": ["Free Wi-Fi", "Restaurant", "Parking"],
+       "contact": {
+         "phone": "+91 123 456 7890",
+         "email": "info@hotelabc.com"
+       }
+     },
+     {
+       "name": "Mountain View Resort",
+       "address": "456 Ridge Road, Shimla",
+       "rating": 4.2,
+       "amenities": ["Spa", "Fitness Center", "Conference Rooms"],
+       "contact": {
+         "phone": "+91 987 654 3210",
+         "email": "reservations@mountainviewresort.com"
+       }
+     },
+     {
+       "name": "Grand Ridge Hotel",
+       "address": "789 Mall Road, Shimla",
+       "rating": 4.7,
+       "amenities": ["Free Breakfast", "Gym", "Wi-Fi"],
+       "contact": {
+         "phone": "+91 789 012 3456",
+         "email": "info@grandridgehotel.com"
+       }
+     },
+     {
+       "name": "Pine Retreat Inn",
+       "address": "234 Pine Valley, Shimla",
+       "rating": 4.0,
+       "amenities": ["Restaurant", "Lounge", "Parking"],
+       "contact": {
+         "phone": "+91 345 678 9012",
+         "email": "reservations@pineretreatinn.com"
+       }
+     },
+     {
+       "name": "Sunrise Heights",
+       "address": "567 Observatory Lane, Shimla",
+       "rating": 4.4,
+       "amenities": ["Spa", "Pool", "Business Center"],
+       "contact": {
+         "phone": "+91 901 234 5678",
+         "email": "info@sunriseheights.com"
+       }
+     },
+     {
+       "name": "Hillside Lodge",
+       "address": "890 Ridge View, Shimla",
+       "rating": 4.3,
+       "amenities": ["Wi-Fi", "Bar", "Meeting Rooms"],
+       "contact": {
+         "phone": "+91 678 901 2345",
+         "email": "info@hillside-lodge.com"
+       }
+     },
+     {
+       "name": "Misty Valley Retreat",
+       "address": "123 Foggy Lane, Shimla",
+       "rating": 4.6,
+       "amenities": ["Restaurant", "Spa", "Parking"],
+       "contact": {
+         "phone": "+91 345 678 9012",
+         "email": "reservations@mistyvalleyretreat.com"
+       }
+     },
+     {
+       "name": "Snowy Peaks Hotel",
+       "address": "456 Snowfall Street, Shimla",
+       "rating": 4.8,
+       "amenities": ["Free Breakfast", "Gym", "Lounge"],
+       "contact": {
+         "phone": "+91 890 123 4567",
+         "email": "info@snowypeakshotel.com"
+       }
+     },
+     {
+       "name": "Forest Haven Resort",
+       "address": "789 Green Forest, Shimla",
+       "rating": 4.1,
+       "amenities": ["Pool", "Conference Rooms", "Wi-Fi"],
+       "contact": {
+         "phone": "+91 234 567 8901",
+         "email": "reservations@foresthavenresort.com"
+       }
+     },
+     {
+       "name": "City Lights Inn",
+       "address": "234 Urban Lane, Shimla",
+       "rating": 4.2,
+       "amenities": ["Bar", "Business Center", "Parking"],
+       "contact": {
+         "phone": "+91 567 890 1234",
+         "email": "info@citylightsinn.com"
+       }
+     },
+     {
+       "name": "Valley Retreat",
+       "address": "567 Valley View, Shimla",
+       "rating": 4.4,
+       "amenities": ["Free Wi-Fi", "Restaurant", "Gym"],
+       "contact": {
+         "phone": "+91 901 234 5678",
+         "email": "reservations@valleyretreat.com"
+       }
+     }
+     
+   ]
+   
