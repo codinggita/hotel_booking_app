@@ -1,0 +1,131 @@
+$small-screen: 576px;
+$medium-screen: 770px;
+$large-screen: 1000px;
+
+footer {
+  background-color: #0a1121;
+  color: #fff;
+  padding: 50px 13vw 40px 13vw;
+  .icons {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .social {
+      display: flex;
+      
+      ul {
+        list-style: none;
+
+        li {
+          display: inline-flex;
+        }
+      }
+    }
+    
+    @media screen and (max-width: 400px) {
+      flex-direction: column;
+    }
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: (1fr 1fr 2fr);
+    column-gap: 20px;
+    
+    .company, .help{
+      padding-top: 2rem;
+      ul {
+        list-style: none;
+        
+        li {
+          padding: 0.2rem;
+          min-width: 150px;
+        }
+      }
+      
+      .company {
+        // grid-area: contact;
+      }
+
+      .help {
+        // grid-area: help;
+      }
+    }
+
+    .contact {
+      padding-top: 2rem;
+      // grid-area: contact;
+
+      .mail {
+        h2 {
+          padding-bottom: 2rem;
+        }
+
+        .input {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          
+          input {
+            border: 0;
+            border-bottom: 2px solid #007cc2;
+            font-size: 1.2rem;
+            background-color: initial;
+            height: 44px;
+            min-width: 320px;
+            margin-bottom: 5px;
+            color: #fff;
+          }
+          ::placeholder {
+              color: white;
+            }
+
+          
+
+          button {
+            padding: 3px 20px;
+            background-color: #007cc2;
+            font-size: 1rem;
+            border: 0;
+            border-radius: 10px;
+            font-weight: bold;
+            color: #fff;
+            max-width: 8rem;
+          }
+
+          @media screen and (max-width: 720px) {
+            flex-direction: column;
+
+            button {
+              padding-top: 10px;
+              padding-bottom: 10px;
+            }
+          }
+        }
+
+        
+      }
+
+      .copyright {
+        font-size: 0.8rem;
+        color: #d1d1d1;
+      }
+
+    }
+
+    @media screen and (max-width: 1000px) {
+      padding-left: 20px;
+      padding-right: 20px;
+      grid-template-columns: (1fr 1fr);
+      grid-template-columns: 
+        "company help"
+        "contact contact";
+      column-gap: 5px;
+    }
+
+    @media screen and (max-width: 720px) {
+      grid-template-columns: (1fr);
+    }
+  }
+} 
