@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Navbar from './components/navbar/Navbar';
 import Searchbox from './components/Searchbox';
 import SearchResult from './components/SearchResult';
 import Favorites from './components/Favorites';
@@ -27,8 +26,7 @@ root.render(
         <Route path='/help-and-support' element={<HelpSupport />} />
         <Route path='/my-bookings' element={<Bookings />} />
         <Route path='/*' element={<h1>Not a route</h1>} />
-      </Routes>
-    <Footer />
+    </Routes>
   </BrowserRouter>
 );
 
