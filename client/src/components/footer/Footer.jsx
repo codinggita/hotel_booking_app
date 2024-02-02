@@ -1,6 +1,5 @@
-import React from 'react';
 import './footer.scss';
-import Logo from '../../asset/logo-revert.svg';
+import Logo from '../../assets/logo-revert.svg';
 import Country from './Country';
 
 
