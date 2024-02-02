@@ -1,6 +1,7 @@
 import React from 'react';
 import './footer.scss';
 import Logo from '../../asset/logo-revert.svg';
+import Country from './Country';
 
 
 function Footer() {
@@ -50,7 +51,7 @@ function Footer() {
         </div>
       </div>
       <div className='country'>
-        country-select
+        <Country/>
       </div>
       <div className='list'>
         <div className='company'>
