@@ -24,9 +24,16 @@ function Navbar() {
                     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="pointer-events-none max-h-full max-w-full"><path fill="transparent" d="M0 0h24v24H0z"></path><path d="M17.129 19.038a5.363 5.363 0 00-1.895-2.87A5.274 5.274 0 0012 15.058c-1.17 0-2.307.39-3.234 1.11a5.362 5.362 0 00-1.895 2.87" stroke="#0A1121" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path><path d="M21 12C21 0 3 0 3 12s18 12 18 0z" stroke="#0A1121" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path><path d="M11.998 12.811c1.939 0 3.03-1.1 3.03-3.058 0-1.957-1.091-3.059-3.03-3.059-1.938 0-3.028 1.102-3.028 3.06 0 1.957 1.09 3.057 3.028 3.057z" stroke="#0A1121" stroke-linecap="round" stroke-linejoin="round" fill="transparent"></path></svg>
                     <span>Log In</span>
                </li>
-               <li>
-                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="pointer-events-none max-h-full max-w-full"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round"></path></svg>
-                    <span>Menu</span>
+               <li className='dropdown'>
+                    <span className='dropbtn'>
+                         <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="pointer-events-none max-h-full max-w-full"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-linecap="round"></path></svg>
+                         <span>Menu</span>
+                    </span>
+                    {/* <ul className='drop-items'>
+                         <li>Recently-viewed</li>
+                         <li>Help and support</li>
+                    </ul> */}
+                    
                </li>
           </ul>
       </div>
