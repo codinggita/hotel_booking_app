@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import NavBar from './components/navbar/Navbar';
 import RecentlyViewed from './components/recentlyViewed/RecentlyViewed';
 import HelpSupport from './components/helpSupport/HelpSupport';
+import Favourites from './components/favourites/Favourites';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path='/recently-viewed' element={<RecentlyViewed/>}/>
         <Route path='/help-and-support' element={<HelpSupport/>}/>
+        <Route path='/favourites' element={<Favourites/>}/>
       </Routes>
     </BrowserRouter>
   )
