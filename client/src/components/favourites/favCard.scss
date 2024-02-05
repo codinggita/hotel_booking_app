@@ -61,4 +61,34 @@
       margin-top: 55px;
     }
   }
+
+  @media (max-width: 767px) {
+
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      max-width: 500px;
+
+
+      img {
+        border-radius: 1.2rem;
+      }
+
+    .hotel-info,
+    .price-check {
+      width: 100%;
+      margin-bottom: 20px;
+      align-items: center;
+      padding: 0.5rem 2rem;
+    }
+
+    .price-check {
+      margin-bottom: 0;
+    }
+
+    .price-button {
+      margin-top: 10px;
+      float: none;
+    }
+  }
 }
