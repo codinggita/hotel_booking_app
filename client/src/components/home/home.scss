@@ -1,7 +1,14 @@
 .home {
-  .head-text {
+
+  .header-text {
     max-width: 980px;
     margin: auto;
-    padding-bottom: 5px;
+    padding-top: 2rem;
+
+    h2 {
+      font-size: 1.5rem;
+      padding-bottom: 3px;
+    }
+
   }
 }

@@ -1,3 +1,4 @@
+
 import {
   faBed,
   faCalendarDays,
@@ -160,5 +161,6 @@ const Header = ({ type }) => {
         </div>  
   );
 };
+
 
 export default Header;
