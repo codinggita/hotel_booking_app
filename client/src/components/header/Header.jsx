@@ -1,3 +1,4 @@
+
 import {
   faBed,
   faCalendarDays,
@@ -93,7 +94,7 @@ const Header = ({ type }) => {
                           className="optionCounterButton"
                           onClick={() => handleOption("adult", "d")}
                         >
-                          -
+                          
                         </button>
                         <span className="optionCounterNumber">
                           {options.adult}
@@ -160,5 +161,6 @@ const Header = ({ type }) => {
         </div>  
   );
 };
+
 
 export default Header;
