@@ -1,0 +1,31 @@
+.top-rated {
+  max-width: 980px;
+  margin: auto;
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+
+    .top-card {
+      min-width: 280px;
+      border-radius: 1.2rem;
+      padding-top: 10px;
+      box-shadow:  
+  0 0 0 2px white,
+  0.3em 0.3em 1em rgba(129, 129, 129, 0.6);
+      
+
+      img {
+        width: 275px;
+        height: 275px;
+        border-radius: 1.2rem;
+        align-items: center;
+        
+      }
+
+      .card-text {
+        text-align: center;
+      }
+    }
+  }
+}
