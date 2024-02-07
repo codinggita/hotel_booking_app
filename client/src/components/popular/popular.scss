@@ -1,0 +1,43 @@
+.popular-search {
+  max-width: 980px;
+  margin: auto;
+  padding-top: 50px;
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .cards {
+    display: flex;
+    gap: 20px;
+
+    .popular-card {
+      background-image: url(../../assets/hotel-sample.webp);
+      background-repeat: no-repeat;
+      height: 280px;
+      width: 200px;
+      border-radius: 1.2rem;
+      background-size: cover;
+
+      ul {
+        font-size: 1.2rem;
+        width: auto;
+        list-style: none;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        font-weight: 900;
+
+        li {
+          padding-bottom: 0.5rem;
+          span {
+            background-color: white;
+            color: rgb(3, 51, 211);
+            padding: 0.1rem 0.3rem;
+            border-radius: 1.2rem;
+            
+          }
+        }
+      }
+    }
+  }
+}
