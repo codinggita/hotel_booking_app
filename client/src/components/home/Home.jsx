@@ -1,6 +1,7 @@
 import Footer from "../footer/Footer";
 import TopRated from "../topRated/TopRated";
-import Header from "../header/Header";
+import Popular from '../popular/Popular';
+// import Header from "../header/Header";
 import './home.scss';
 
 function Home() {
@@ -14,8 +15,9 @@ function Home() {
         <p>We’ll do the searching. You do the saving.</p>
       </div>
       
-      <Header/>   
+      {/* <Header/>    */}
       <TopRated/>
+      <Popular/>
 
       <Footer/>
     </div>

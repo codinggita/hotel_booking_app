@@ -54,6 +54,7 @@ export default function BasicTabs() {
 
   return (
     <div className='top-rated'>
+      <h2>Take a dip at these top-rated hotels</h2>
       <Box sx={{ width: '100%' }}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">

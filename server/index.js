@@ -1,6 +1,10 @@
 const express = require("express");
 const app = express();
+const bodyParser = require('body-parser');
 const port = 4000;
+
+app.use(express.json);
+app.use(bodyParser.json());
 
 app.listen(port, ()=> {
      console.log(`Hello! server is started at: http://localhost:${port}`);
@@ -46,3 +50,12 @@ app.get("/my-bookings/:regUser", (req, res) => {
 app.get("/*", (req, res) => {
      res.send("Not a right port");
 })
+
+
+app.post('/login', (req, res) => {
+     const formData = req.body;
+     console.log('Received form data:', formData);
+     // Perform actions with form data (e.g., store it in a database)
+     // Respond with a success message
+     res.json({ message: 'Form data received successfully!' });
+   });
