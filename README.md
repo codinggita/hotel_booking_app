@@ -1,6 +1,19 @@
 # hotel_booking_app(Tripo)
 
-## Video link - https://drive.google.com/file/d/1_k3NNVUrAwOWBENx0uw_rd1jsj_YjOIJ/view?usp=sharing
+### Video link
+https://drive.google.com/file/d/1_k3NNVUrAwOWBENx0uw_rd1jsj_YjOIJ/view?usp=sharing
+
+### Netlify link
+https://tripo-bookings.netlify.app/
+
+### Postman link
+https://documenter.getpostman.com/view/21760750/2s9YynjNr5
+
+### Render link
+https://hotel-booking-app-alyw.onrender.com
+
+### Figma link
+https://www.figma.com/file/EbaPWMmSSH6R37yoXW3qX0/tripo?type=design&t=qWRMQPa4HiUaQlR9-6
 
 - Which problem Project is Solving?
 
