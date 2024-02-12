@@ -1,5 +1,7 @@
 # hotel_booking_app(Tripo)
 
+## Video link - https://drive.google.com/file/d/1_k3NNVUrAwOWBENx0uw_rd1jsj_YjOIJ/view?usp=sharing
+
 - Which problem Project is Solving?
 
     My hotel booking web app is going to solve following problems:
